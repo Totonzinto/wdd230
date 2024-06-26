@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[Chioma Nwosu] - WDD 230 - Web Frontend Development</title>
+    <meta name="description" content="WDD 230 - Web Frontend Development course assignment portal">
+    <meta name="author" content="[Chioma Nwosu]">
+    <link rel="stylesheet" href="/styles/bass.css">
+    <link rel="stylesheet" href="/styles/larger.css">
+</head>
+<body>
+    <header>
+        <img src="images/profile-img.jpg" alt="Profile image">
+        <span>Chioma Nwosu</span>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="index.html">Chamber</a></li>
+            <li><a href="index.html">Site Plan</a></li>
+            <li><a href="index.html">Form</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>WDD 230: Web Frontend Development</h1>
+        <section class="card">
+            <h2>Learning Activities</h2>
+            <ul>
+                <li><a href="#">Learning Activity 1</a></li>
+                <li><a href="#">Learning Activity 2</a></li>
+                <li><a href="#">Learning Activity 3</a></li>
+                <li><a href="#">Learning Activity 4</a></li>
+                <li><a href="#">Learning Activity 5</a></li>
+                <li><a href="#">Learning Activity 6</a></li>
+            </ul>
+        </section>
+        <section class="card">
+            <h2>Information</h2>
+            <div class="grid-container">
+                <div class="grid-item">rainy <span id="weather"></span></div>
+                <div class="grid-item">Number of visits: <span id="visits"></span></div>
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; <span id="year"></span> Chioma Nwosu Lagos/Nigeria <img src="images/flag.png" alt="Flag"></p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+</body>
+</html>
