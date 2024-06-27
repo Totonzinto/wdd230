@@ -1,0 +1,34 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #ff7f00;
+}
+
+h1, h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #008bff;
+}
+
+.color-palette {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.color {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 10px;
+}
+#site-name, #site-purpose, #scenarios, #color-schema, #typography, #wireframe {
+    margin-bottom: 20px;
+}
+
+#wireframe img {
+    width: 50%;
+    height: auto;
+    margin: 20px;
+}
