@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>[Chioma Nwosu] - WDD 230 - Web Frontend Development</title>
+    <title>Chioma Nwosu - WDD 230 - Web Frontend Development</title>
     <meta name="description" content="WDD 230 - Web Frontend Development course assignment portal">
     <meta name="author" content="[Chioma Nwosu]">
     <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/bass.css">
+    <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
     <link rel="icon" href="favicon.ico">
     <meta property="og:title" content="Zintotech chamber site plan" />
@@ -19,42 +19,88 @@
     <header>
         <img src="images/profile-img.jpg" alt="Profile image">
         <span>Chioma Nwosu</span>
+        <div id="mode">
+            🕶
+          </div>
+    
     </header>
     <nav>
-        <ul>
-            <li><a href="index.html" class="active">Home</a></li>
-            <li><a href="http://127.0.0.1:5500/week01/chamber-site-plan.html">Chamber</a></li>
-            <li><a href="index.html">Site Plan</a></li>
-            <li><a href="index.html">Form</a></li>
-            
+        <button id="hamburgerBtn"></button>
+        <ul class="primaryNav">
+          <li><a href="https://totonzinto.github.io/wdd230/" class="active">Home</a></li>
+          <li><a href="https://totonzinto.github.io/chamber/">Chamber</a></li>
+          <li><a href="https://totonzinto.github.io/wdd230/chamber-site-plan.html">Site Plan</a></li>
+          <li><a href=>Form</a></li>
         </ul>
-    </nav>
+      </nav>
+  
     <main>
-        <h1>WDD 230: Web Frontend Development</h1>
-        <section class="card">
-            <h2>Learning Activities</h2>
-            <ul>
-                <li><a href="https://codepen.io/CHI-oma123/pen/oNRRPQL">Learning Activity 1</a></li>
-                <li><a href="#">Learning Activity 2</a></li>
-                <li><a href="#">Learning Activity 3</a></li>
-                <li><a href="#">Learning Activity 4</a></li>
-                <li><a href="#">Learning Activity 5</a></li>
-                <li><a href="#">Learning Activity 6</a></li>
+      <div id="hero">
+        <div id="hero-box">
+          <picture>
+            <source media="(max-width: 400px)" srcset="images/Rome-Temple.webp">
+            <img src="images/Rome-Temple-2.webp" alt="large image" width="960" height="500">
+        </picture>
+        </div>
+        <div class="herolabel">
+          <p>Rome Temple</p>
+        </div>
+      </div>
+
+        <h2>WDD 230: Web Frontend Development</h2>
+      <div class="line-1"></div>
+
+      <section class="card">
+        <h3>Learning Activities</h3>
+          <li>
+            Week 01: <a href="https://totonzinto.github.io/wdd230/holygrail.html">Holy Grail</a>, <a href="https://totonzinto.github.io/wdd230/media-query.html">Media Query</a><a
+              href="https://totonzinto.github.io/wdd230//chamber-site-plan.html"
+            >Zintotech Chamber Site Plan</a>
+          </li>
+        </ul>
+        <ul>
+          <li>Week 02: <a href="https://henryohia.github.io/wdd230/week02/design.html">
+            Web Design Principles</a>, <a href="https://codepen.io/CHI-oma123/pen/oNRRPQL">
+              Responsive "Hamburger" Menu</a>, <a href="https://henryohia.github.io/wdd230/week02/bom.html">DOM Manipulation</a>, <a href="https://henryohia.github.io/chamber/">The Chamber Home Page</a></li>
+        </ul>
+        <ul>
+
+                <li><a href="#">week 3</a></li>
+                <li><a href="#">week 4</a></li>
+                <li><a href="#">week 5</a></li>
+                <li><a href="#">week 6</a></li>
             </ul>
         </section>
-        <section class="card">
-            <h2>Information</h2>
-            <div class="grid-container">
-                <div class="grid-item">rainy <span id="weather"></span></div>
-                <div class="grid-item">Number of visits: <span id="visits"></span></div>
-
-            </div>
-        </section>
+        <section class="card2">
+            <h3>Information</h3>
+            <section class="w">
+              <!-- the DIV that will contain the widget -->
+              <div class="weather1">
+                <div>
+                  <img src="" alt="" id="weather-icon">
+                </div>
+                <div>
+                  <h3><span id="current-temp"></span>&#176;F</h3>
+                  <h3 id="condition"></h3>
+                </div>
+                  <br>
+                <p>
+                  <span class="label">Number of Visits: </span><span id="visits"></span>
+                </p>
+                </div>
+            </section>
+            </section>
+    
     </main>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d126787.8620404604!2d3.3434042102092407!3d6.755133710205867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m5!1s0x103bc0b91a29fa81%3A0xe92e570709273423!2sMowe%2C%20Loburo%20110113%2C%20Ogun%20State!3m2!1d6.8085486!2d3.4367201!4m3!3m2!1d6.7380891!2d3.4206478!5e0!3m2!1sen!2sng!4v1720312106112!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     <footer>
         <p>&copy; <span id="year"></span> Chioma Nwosu Lagos/Nigeria <img src="images/flag.png" alt="Flag"></p>
-        <p id="lastModified"></p>
+        <div class="copyright"><span id="copyright"></span></div>
+      <p id="lastModified"></p>
     </footer>
     <script src="scripts/getDates.js"></script>
+    <script src="scripts/hamburgerBtn.js"></script>
+
 </body>
 </html>
