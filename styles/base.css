@@ -16,7 +16,7 @@
   }
   
   header {
-    background-color: darksalmon;
+    background-color: rgb(216, 191, 183);
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     /* grid-gap: 50px; */
@@ -108,7 +108,7 @@
   }
   .primaryNav li a.active {
       font-weight: bold;
-      color: #0077FF; 
+      color: #778596; 
   }
   
   /* when the button is clicked - the open class is toggle (added/removed) and accounted for here */
@@ -130,7 +130,7 @@
   }
   
   .active {
-    color: burlywood;
+    color: rgb(184, 171, 154);
   }
   
   main {
@@ -178,7 +178,7 @@
   }
   
   #lastModified {
-    color: royalblue;
+    color: rgb(168, 174, 192);
   }
   
   footer {
@@ -225,13 +225,13 @@
   }
   
   #visits {
-    color:orange;
+    color:rgb(53, 51, 48);
     font-weight: bolder;
     font-size: larger;
   }
   .label {
     font-weight: 700;
-    color: orange;
+    color: rgb(85, 81, 75);
     /* background-color: rgba(200, 200, 255, 0.3); */
     
   }
