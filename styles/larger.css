@@ -1,5 +1,4 @@
 @media only screen and (min-width: 64em) {
-}
 	h1 {
 	  font-size: 45px;
 	}
@@ -49,7 +48,7 @@
 	flex: 1 1 100%;
   }
 	footer {
-	  background-color: rgb(146, 133, 129);
+	  background-color: rgb(128, 119, 116);
 	  text-shadow: 5px 5px 10px #6f7364;
 	  display: flex;
 	  border-radius: 1.2em;
@@ -103,4 +102,7 @@
 	  top: 500px;
 	  right: 300px;
       
-	}
+    }
+    
+    
+  }

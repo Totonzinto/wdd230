@@ -16,7 +16,7 @@
   }
   
   header {
-    background-color: rgb(216, 191, 183);
+    background-color: darksalmon;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     /* grid-gap: 50px; */
@@ -108,7 +108,7 @@
   }
   .primaryNav li a.active {
       font-weight: bold;
-      color: #778596; 
+      color: #0077FF; 
   }
   
   /* when the button is clicked - the open class is toggle (added/removed) and accounted for here */
@@ -130,7 +130,7 @@
   }
   
   .active {
-    color: rgb(184, 171, 154);
+    color: rgb(148, 137, 123);
   }
   
   main {
